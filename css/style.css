@@ -24,7 +24,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
-.container__header {
+.containerheader {
   width: 1200px;
   margin: 0 auto;
   background-image: url(/img/Layer\ 13.png),url(/img/Layer\ 1.png);
@@ -37,7 +37,7 @@ body {
   width: 1010px;
   margin: 0 auto;
 }
-.statusbar__header {
+.statusbarheader {
   /* width: 1010px;
   margin: 0 auto; */
   padding: 30px 0 0;
@@ -49,13 +49,13 @@ body {
 } */
 /* .bar__header {
 } */ 
-.ul__header {
+.ulheader {
   list-style: none;
   display: flex;
   padding: 0;
   margin: 0;
 }
-.ul__header li a {
+.ulheader li a {
   text-transform: uppercase;
   color: #fff;
   text-decoration: none;
@@ -64,13 +64,13 @@ body {
   /* font-family: "Montserrat"; */
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.ul__header li a:hover {
+.ulheader li a:hover {
   background-color: #130e27;
   border-radius: 5px;
   width: 0px;
   height: 20px;
 }
-.h1__header_1 {
+.header1 {
   font-size: 90px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: rgb(19, 14, 39);
@@ -81,7 +81,7 @@ body {
   margin: 0;
   padding: 110px 0 0;
 }
-.h1__header_2 {
+.header2 {
   font-size: 90px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #fff;
@@ -92,7 +92,7 @@ body {
   margin: 0;
   padding: 0;
 }
-.text__header {
+.textheader {
   margin: 0;
   font-size: 18px;
   font-family: "PT Serif";
@@ -110,15 +110,15 @@ body {
   margin: 0 auto;
   padding-bottom: 70px;
 }
-.title__service {
+.titleservice {
   display: flex;
   margin-bottom: 100px;
 }
-.logo__service {
+.logoservice {
   max-height: 132px;
   margin-bottom: 46px;
 }
-.p_service_red {
+.servicered {
   font-size: 50px;
   font-family: Couture;
   color: rgb(198, 35, 20);
@@ -126,7 +126,7 @@ body {
   margin: 45px 10px 0 0;
   padding: 0;
 }
-.p_service_blue {
+.serviceblue {
   font-size: 50px;
   font-family: "Couture";
   color: #130e27;
@@ -134,20 +134,20 @@ body {
   margin: 45px 0 0 10px;
   padding: 0;
 }
-.cards__service {
+.cardsservice {
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
   text-align: center;
 }
-.item__service {
+.itemservice {
   width: 180px;
   height: 230px;
   justify-content: center;
   /* align-items: center; */
   text-align: center;
 }
-.container_story {
+.containerstory {
   height: 130px;
   width: 1200px;
   margin: 0 auto;
@@ -161,7 +161,7 @@ body {
   align-items: center;
   /* text-align: center; */
 }
-.text__story {
+.textstory {
   font-size: 21px;
   margin: 25px 0 25px 0;
   font-family: serif;
@@ -169,7 +169,7 @@ body {
   width: 630px;
   line-height: 26px;
 }
-.botton__story {
+.bottonstory {
   padding: 20px 0;
   margin: 30px 0 25px 0;
   width: 270px;
@@ -179,7 +179,7 @@ body {
   border-radius: 5px;
   background-color: rgb(198, 35, 20);
 }
-.botton__story_a {
+.bottonstorya {
   font-family: "Myriad Pro";
   font-size: 22px;
   text-align: center;
@@ -188,7 +188,7 @@ body {
   justify-content: center;
   color: #fff;
 }
-.container_pricing {
+.containerpricing {
   background-color: #efefef;
   padding-top: 55px;
 }
@@ -196,7 +196,7 @@ body {
   width: 1010px;
   margin: 0 auto;
 }
-.title__pricing {
+.titlepricing {
   text-align: center;
   padding: 0;
   margin: 0 0 50px 0;
@@ -205,26 +205,26 @@ body {
   color: rgb(19, 14, 39);
   font-weight: bold;
 }
-.cards__pricing {
+.cardspricing {
   display: flex;
   justify-content: space-between;
   text-align: center;
 }
-.item__pricing {
+.itempricing {
   height: 410px;
   width: 320px;
   background-color: #fff;
   margin-bottom: 65px;
   border-radius: 5px;
 }
-.title_item_pricing {
+.titleitempricing {
   font-size: 22px;
   font-family: serif;
   color: rgb(22, 22, 22);
   text-align: center;
   margin: 35px 0 30px 0;
 }
-.price_item_pricing {
+.priceitempricing {
     font-size: 60px;
     font-family: Montserrat;
     color: rgb(198, 35, 20);
@@ -232,7 +232,7 @@ body {
     text-align: center;
     margin: 0;
 }
-.table_item_pricing {
+.tableitempricing {
     font-size: 22px;
     font-family: serif;
     text-align: center;
@@ -242,7 +242,7 @@ body {
     line-height: 25px;
     padding-bottom: 10px;
 }
-.botton_item_pricing {
+.bottonitempricing {
     font-size: 22px;
     font-family: Montserrat;
     color: rgb(255, 255, 255);
@@ -254,13 +254,13 @@ body {
     padding: 15px 60px;
     border-radius: 5px;
 }
-.botton_item_pricing:hover {
+.bottonitempricing:hover {
   background-color: rgb(198, 35, 20);
 }
 
 /* ----DOWNBAR---- */
 
-.container__downbar {
+.containerdownbar {
   width: 1200px;
   margin: 0 auto;
   height: 190px;
@@ -274,7 +274,7 @@ body {
   text-align: center;
   justify-content: space-between;
 }
-.text__downbar {
+.textdownbar {
   font-size: 20px;
   padding: 70px 0 0 0;
   font-family: serif;
@@ -282,15 +282,15 @@ body {
   line-height: 1.1;
   display: flex;
 }
-.text__downbar p {
+.textdownbar p {
   margin: 0;
   padding: 0 5px 0 0;
 }
-.text__downbar a {
+.textdownbar a {
   margin: 0;
   color: rgb(198, 35, 20);
   text-decoration: none;
 }
-.img__downbar {
+.imgdownbar {
   padding: 65px 0 0 0;
 }
