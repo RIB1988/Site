@@ -27,7 +27,8 @@ body {
 .containerheader {
   width: 1200px;
   margin: 0 auto;
-  background-image: url(/img/Layer\ 13.png),url(/img/Layer\ 1.png);
+  background-color: #dd2211;
+  /* background-image: url(/img/Layer\ 13.png); */
   background-size: no-repeat;
   background-position: center;
   background-size: cover;
