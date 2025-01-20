@@ -1,0 +1,296 @@
+
+@font-face {
+  font-family: Couture;
+  src: url(../fonts/couture-bld.otf);
+}
+@font-face {
+  font-weight: 400; /* Соответствует значению normal */
+  font-family: Montserrat;
+  src: url("../fonts/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-weight: 700; /* Соответствует значению bold */
+  font-family: Montserrat;
+  src: url("../fonts/Montserrat-Bold.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.container__header {
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url(/img/Layer\ 13.png),url(/img/Layer\ 1.png);
+  background-size: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 694px;
+}
+.header {
+  width: 1010px;
+  margin: 0 auto;
+}
+.statusbar__header {
+  /* width: 1010px;
+  margin: 0 auto; */
+  padding: 30px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ /* .logo__header {
+} */
+/* .bar__header {
+} */ 
+.ul__header {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.ul__header li a {
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 20px;
+  font-size: 18px;
+  /* font-family: "Montserrat"; */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.ul__header li a:hover {
+  background-color: #130e27;
+  border-radius: 5px;
+  width: 0px;
+  height: 20px;
+}
+.h1__header_1 {
+  font-size: 90px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(19, 14, 39);
+  font-weight: bold;
+  text-transform: uppercase;
+  /* height: 80px; */
+  line-height: 80px;
+  margin: 0;
+  padding: 110px 0 0;
+}
+.h1__header_2 {
+  font-size: 90px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+  /* height: 80px; */
+  text-transform: uppercase;
+  line-height: 80px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+.text__header {
+  margin: 0;
+  font-size: 18px;
+  font-family: "PT Serif";
+  font-weight: 100;
+  max-width: 500px;
+  color: rgb(255, 255, 255);
+  line-height: 30px;
+  padding-top: 50px;
+}
+
+/* .container__service {
+} */
+.service {
+  width: 1010px;
+  margin: 0 auto;
+  padding-bottom: 70px;
+}
+.title__service {
+  display: flex;
+  margin-bottom: 100px;
+}
+.logo__service {
+  max-height: 132px;
+  margin-bottom: 46px;
+}
+.p_service_red {
+  font-size: 50px;
+  font-family: Couture;
+  color: rgb(198, 35, 20);
+  font-weight: bold;
+  margin: 45px 10px 0 0;
+  padding: 0;
+}
+.p_service_blue {
+  font-size: 50px;
+  font-family: "Couture";
+  color: #130e27;
+  font-weight: bold;
+  margin: 45px 0 0 10px;
+  padding: 0;
+}
+.cards__service {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  text-align: center;
+}
+.item__service {
+  width: 180px;
+  height: 230px;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+}
+.container_story {
+  height: 130px;
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #130e27;
+}
+.story {
+  width: 1010px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* text-align: center; */
+}
+.text__story {
+  font-size: 21px;
+  margin: 25px 0 25px 0;
+  font-family: serif;
+  color: rgb(255, 255, 255);
+  width: 630px;
+  line-height: 26px;
+}
+.botton__story {
+  padding: 20px 0;
+  margin: 30px 0 25px 0;
+  width: 270px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: rgb(198, 35, 20);
+}
+.botton__story_a {
+  font-family: "Myriad Pro";
+  font-size: 22px;
+  text-align: center;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.container_pricing {
+  background-color: #efefef;
+  padding-top: 55px;
+}
+.pricing {
+  width: 1010px;
+  margin: 0 auto;
+}
+.title__pricing {
+  text-align: center;
+  padding: 0;
+  margin: 0 0 50px 0;
+  font-size: 50px;
+  font-family: Montserrat;
+  color: rgb(19, 14, 39);
+  font-weight: bold;
+}
+.cards__pricing {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.item__pricing {
+  height: 410px;
+  width: 320px;
+  background-color: #fff;
+  margin-bottom: 65px;
+  border-radius: 5px;
+}
+.title_item_pricing {
+  font-size: 22px;
+  font-family: serif;
+  color: rgb(22, 22, 22);
+  text-align: center;
+  margin: 35px 0 30px 0;
+}
+.price_item_pricing {
+    font-size: 60px;
+    font-family: Montserrat;
+    color: rgb(198, 35, 20);
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+.table_item_pricing {
+    font-size: 22px;
+    font-family: serif;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    color: rgb(22, 22, 22);
+    line-height: 25px;
+    padding-bottom: 10px;
+}
+.botton_item_pricing {
+    font-size: 22px;
+    font-family: Montserrat;
+    color: rgb(255, 255, 255);
+    background-color: #130e27;
+    text-decoration: none;
+    align-items: center;
+    line-height: 1.273;
+    text-align: center;
+    padding: 15px 60px;
+    border-radius: 5px;
+}
+.botton_item_pricing:hover {
+  background-color: rgb(198, 35, 20);
+}
+
+/* ----DOWNBAR---- */
+
+.container__downbar {
+  width: 1200px;
+  margin: 0 auto;
+  height: 190px;
+  background-color: #130e27;
+}
+.downbar {
+  width: 1010px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.text__downbar {
+  font-size: 20px;
+  padding: 70px 0 0 0;
+  font-family: serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.1;
+  display: flex;
+}
+.text__downbar p {
+  margin: 0;
+  padding: 0 5px 0 0;
+}
+.text__downbar a {
+  margin: 0;
+  color: rgb(198, 35, 20);
+  text-decoration: none;
+}
+.img__downbar {
+  padding: 65px 0 0 0;
+}
